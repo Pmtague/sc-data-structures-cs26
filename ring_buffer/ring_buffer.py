@@ -14,7 +14,8 @@ class RingBuffer:
         # Note:  This is the only [] allowed
         list_buffer_contents = []
 
-        # TODO: Your code here
+        if self.storage == self.capacity:
+			
 
         return list_buffer_contents
 
